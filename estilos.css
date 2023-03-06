@@ -1,0 +1,39 @@
+* {
+    background-color: white;
+    margin: 2px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.header .logo img {
+    height: 50px;
+    transition: all 0.3s;
+}
+.header .logo img:hover{ 
+    transform: scale(1.2);
+}
+.header .finder {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 2rem;
+    width: 300px;
+    height: 35px;
+}
+#navbar-pinterest {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 20px;
+}
+img {
+    max-width: 320px;
+    display: block;
+    margin-block: 0.5em;
+    border-radius: 5%;
+    align-items: stretch;
+}
+.galeria {
+    columns: 5 300px;
+    column-gap: 2px;
+}
